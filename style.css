@@ -4,3 +4,56 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1f2633;
+    font-family: 'Fira sans', sans-serif;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.container {
+    width: 60%;
+    background-color: #212D40;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+    box-shadow: 1px 6px 46px rgba(0, 0, 0, 1);
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-block: 15px;
+    gap: 15px;
+    justify-self: center;
+}
+
+input, button {
+    padding: 7px;
+    font-size: large;
+    background-color: #212D40;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+button {
+    cursor: pointer;
+    margin-block: 20px;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+    color: #1f2633
+}
+
+a {
+    color: #f0f0f0;
+}
