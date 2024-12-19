@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,32 +8,26 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-        
     <link rel="stylesheet" href="css/style.css">
     <title>Login System</title>
 </head>
-
 <body>
     <main>
         <section>
             <div class="container">
                 <h1>Smart Login System</h1>
-
+                
                 <form>
-                    <input id="name" name="name" type="text" placeholder="Enter your name">
-                    <input id="email" name="email" type="text" placeholder="Enter your email">
-                    <input id="password" name="password" type="text" placeholder="Enter your password">
-                    <button type="button" id="signUp" name="signUp" onclick="addUser();">Sign Up</button>
+                        <input id="loginEmail" name="email" type="text" placeholder="Enter your email">
+                        <input id="loginPassword" name="password" type="text" placeholder="Enter your password">                
+                        <button type="button" id="login" name="login">Log in</button>
                 </form>
 
-                <p>Do you have an account? <span><a href="./sign-in.html">Sign in</a></span></p>
+            <p>Do not have an account? <span><a href="./index.html">Sign Up</a></span></p>
             </div>
-        
         </section>
     </main>
-    
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="js/sign-up.js"></script>
+<script src="js/sign-in.js"></script>
 </body>
-
 </html>
