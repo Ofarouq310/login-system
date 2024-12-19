@@ -57,3 +57,31 @@ button:hover {
 a {
     color: #f0f0f0;
 }
+
+.home-section {
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.home {
+    width: 100%;
+    background-color: #212D40;
+    margin: 0 auto;
+    box-shadow: 1px 6px 46px rgba(0, 0, 0, 1);
+    padding: 100px 40px;
+}
+
+.home h1 {
+    font-size: 42px;
+}
+
+.modal {
+    display: flex;
+    width: 100%;
+}
+
+.modal-body p {
+    color: black;
+}
