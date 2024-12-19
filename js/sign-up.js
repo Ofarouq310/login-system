@@ -65,4 +65,3 @@ function isEmailValid(email) {
 function isEmailUsed(email) {
     return users.some(user => user.userEmail.toLowerCase() === email.toLowerCase());
 }
-
