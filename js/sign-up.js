@@ -17,11 +17,21 @@ function addUser(){
     }
     
      if (isEmailUsed(userEmail.value)) {
-        Swal.fire("Email is already registered!");
+        Swal.fire({
+            title: "Email is already registered!",
+            icon: 'error',
+            iconColor: '#212D40',
+            confirmButtonColor: '#212D40'
+        })  
         return;
     }
     if (!isEmailValid(userEmail.value)) {
-        Swal.fire("Please enter a valid email address!");
+        Swal.fire({
+            title: "Please enter a valid email address!",
+            icon: 'error',
+            iconColor: '#212D40',
+            confirmButtonColor: '#212D40'
+        })  
         return;
     }
     const user = {
@@ -36,6 +46,8 @@ function addUser(){
         position: "top-center",
         icon: "success",
         title: "User Registered Successfully! Please Log In.",
+        iconColor: '#212D40',
+        confirmButtonColor: '#212D40',
         showConfirmButton: false,
         timer: 1500
 });

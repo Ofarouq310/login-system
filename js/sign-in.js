@@ -13,7 +13,12 @@ function checkUser(loginEmail, loginPassword) {
             return user;
         }
     }
-    Swal.fire("Invalid email or password!");
+    Swal.fire({
+            title: "Invalid email or password!",
+            icon: 'error',
+            iconColor: '#212D40',
+            confirmButtonColor: '#212D40'
+        })  
     return null;
 }
 
